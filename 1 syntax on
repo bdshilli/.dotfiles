@@ -12,6 +12,11 @@ This is my custom .vimrc configuration for Vim.
 		sets shiftwidth to 0
 		sets softtabstop to 0
 		sets noexpandtab1 syntax on
+		  2 set number
+		    3 set autoindent
+		      4 set ruler
+		        5 color elflord
+			  6 autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
 ## bashrc_custom
 This is my custom .bashrc configuration for Bash.
 	Defined Aliases:
